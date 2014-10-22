@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/screen.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="css/slider-style.css">
+		<link rel="stylesheet" type="text/css" href="../../css/fixed_button.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/jquery.glide.js"></script>
+	</head>
+	<body>
+		<div class="fixed-button">
+			<div class="fixed-button__back">
+				<a href="http://GSemikozov.github.io/">Back</a>
+			</div>
+			<div class="fixed-button__github">
+				<a href="https://github.com/GSemikozov/Solutions">GitHub</a>
+			</div>
+		</div>
+		<div class="layout">
+			<div class="header">
+				<div class="header__logo">
+					<img src="images/logo.png">
+					<a class="header__logo_text"><span class="logo_text-bold">Business</span> Co.<br><span class="logo_text-below"> reach stability with us!</span></a>
+				</div>
+				<div class="header__links">
+					<a href="#" class="home"></a>
+					<a href="#" class="tree"></a>
+					<a href="#" class="zoom"></a>
+				</div>
+				<div class="header__menu">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Solutions</a></li>
+						<li><a href="">Products</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="slider">
+				<ul class="slider__wrapper">
+					<li class="slider__item"><a href=""><img src="images/first-slide.png"></a></li>
+					<li class="slider__item"><a href=""><img src="images/second-slide.png"></a></li>
+					<li class="slider__item"><a href=""><img src="images/third-slide.png"></a></li>
+				</ul>
+			</div>
+			<script>
+				var glide = $('.slider').glide().data('api_glide');
+				$('.slider__arrows-item').on('click', function() {
+					console.log(glide.current());
+				});
+			</script>
+			<!--<div class="promo-slider-wrapper">
+				<div class="promo-slider">
+					<div id="slide" class="first-slide"></div>
+					<ul class="promo-slider__nav">
+						<li><a href="" class="first-slide-icon"><img src="images/first-slide_icon.png">Find the right financing option.</a></li>
+						<li><a href="" class="second-slide-icon"><img src="images/second-slide_icon.png"><span>All business  consulting.</span></a></li>
+						<li><a href="" class="third-slide-icon"><img src="images/third-slide_icon.png">Enterprise  resource planning.</a></li>
+					</ul>
+				</div>
+			</div>-->
+			<div class="content-wrapper">
+				<div class="sidebar">
+					<div class="recent-solutions">
+						<div class="recent-solutions__header">
+							<h2>Recent solutions:</h2>
+						</div>
+						<div class="recent-solutions__content">
+							<a class="link" href="#">Phasellus porta.</a>
+							<p> Fusce suscipit varius mi. Cum soc natoque et magnis.
+							Parturient montes, nascetur.</p>
+							<a class="link" href="#">Ridiculus mus nulla dui.</a>
+							<p> Fusce feugiat malesuada odio.
+							Morbi nunc odio, gravida at, cursus nec, luctus.</p>
+							<a class="link" href="#">Maecenas tristique orci.</a>
+							<p>Duis ultricies pharetra magna. Donec accumsan malesuada orci.
+							Donec sit amet eros.</p>
+						</div>
+					</div>
+					<div class="ideal-solutions">
+						<div class="ideal-solutions__header">
+							<h2>Ideal solutions</h2>
+						</div>
+						<img src="images/businessman.png" class="ideal-solutions__businessman-img">
+						<div class="ideal-solutions__content">
+							<h3>Praesent vestibulum molestie lacus. Aenean nonummy.</h3>
+							<p>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque <a class="link" href="#">penatibus et magnis dis parturient montes, nascetur ridiculus mus. </a> Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem.</p>
+							<div class="learn-more-link"><a href="#">Learn more</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="solutions-showcase">
+						<div class="solutions-showcase__header">
+							<h2>Solutions showcase:</h2>
+						</div>
+						<div class="solutions-showcase__content">
+							<h3>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. </h3>
+							<p> Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; <a class="link" href="#">Suspendisse sollicitudin velit sed leo.</a> Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac.</p>
+							<h3>Donec porta diam eu massa.</h3>
+							<p>Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Proin ullamcorper urna et felis.</p>
+							<div class="learn-more-link"><a href="#">Learn more</a></div>
+						</div>
+					</div>
+					<div class="business-solutions">
+						<div class="business-solutions__header">
+							<h2><span>Business</span> Solutions</h2>
+						</div>
+						<div class="business-solutions__content">
+							<div class="business-solutions__section">
+								<img src="images/paper.png">
+								<h2><a class="" href="#">Praesent vestibulum molestie lacus.</a></h2>
+								<p>Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+							</div>
+							<div class="business-solutions__section">
+								<img src="images/earth.png">
+								<h2><a class="" href="#">Fusce feugiat malesuada odio.</a></h2>
+								<p>Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci.</p>
+							</div>
+							<div class="business-solutions__section">
+								<img src="images/lamp.png">
+								<h2><a class="" href="#">Maecenas tristique orci ac sem.</a></h2>
+								<p>Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+							</div>
+							<div class="business-solutions__section">
+								<img src="images/config.png">
+								<h2><a class="" href="#">Praesent vestibulum molestie lacus.</a></h2>
+								<p>Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+							</div>
+							<div class="learn-more-link"><a href="#">Learn more</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<span class="footer__phone"><span>Freephone:</span> +1 800 559 6580</span>
+				<ul class="footer__menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Solutions</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+				<div class="footer__copyright">Business Co. © 2008 | Privacy Policy</div>
+			</div>
+		</div>
+	</body>
+</html>

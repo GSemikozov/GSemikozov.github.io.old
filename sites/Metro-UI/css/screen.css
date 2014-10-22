@@ -1,0 +1,135 @@
+@font-face {
+	font-family: 'segoe';
+	font-style: normal;
+	font-weight: normal;
+	src: url('segoeui.ttf') format('truetype');
+}
+html {
+	height: 100%;
+}
+body {
+	background: #192d62 url("../images/background.png") repeat;
+	color: #fff;
+	font-family: 'segoe','Open Sans', sans-serif;
+	font-size: 16px;
+	height: 100%;
+	line-height: 1.2;
+	-webkit-font-smoothing: antialiased;
+}
+/*---------------------------------------------------------------------------------------*/
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+/*
+* Header
+*/
+.header {
+	line-height: 240px;
+	font-size: 4em;
+	position: relative;
+	width: 100%;
+ }
+/*
+* Tiles
+*/
+.tile {
+	box-sizing: border-box;
+	float: left;
+	height: 150px;
+	margin: 0 10px 10px 0;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	width: 150px;
+}
+.tile:hover {
+	outline: 3px solid #aaa;
+	-ms-transform: scale(1.03);
+	-webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+.tile:active {
+	outline: none;
+}
+.tile img {
+	height: auto;
+	max-width: 100%;
+}
+.tile__double {
+	width: 310px;
+}
+.tile__triple {
+	width: 470px;
+}
+.tile__half {
+	height: 75px;
+	width: 75px;
+}
+.tile__label {
+	bottom: 10px;
+	left: 10px;
+	position: absolute;
+}
+ 
+/*------
+Background for tiles
+*/
+.bg-lightBlue {
+	background-color: #03abe3;
+}
+.bg-portfolio {
+	background-color: #d3573e;
+}
+.bg-hire {
+	background-color: #86a73f;
+}
+.bg-home {
+	background-color: #3387ea;
+}
+.bg-nouncy {
+	background-color: #151a26;
+}
+.bg-about {
+	background-color: #f9be3e;
+}
+.bg-photos {
+	background-color: #59b0e2;
+}
+.bg-testimonials {
+	background-color: #33af95;
+}
+.bg-contact {
+	background-color: #7e5b8c;
+}
+/*------
+Nouncy tiles text-block
+*/
+.tile-content img {
+	float: left;
+}
+.nouncy__text {
+	line-height: 2em;
+	margin-left: 170px;
+	padding: 10px;
+}
+.nouncy__text-heading {
+	font-size: 1em;
+}
+.nouncy__text-content {
+	font-size: 1.4em;
+}
+.nouncy__text-date {
+	font-size: 0.8em;
+}
+/*
+* bottom text
+*/
+.bottom-text__float-right {
+	float: right;
+	line-height: 75px;
+	margin-right: 10px;
+}

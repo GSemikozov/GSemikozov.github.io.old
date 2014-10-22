@@ -1,0 +1,354 @@
+@media screen and (max-width: 700px)	{
+	.header	{
+		line-height: 3em;
+	}
+	.logo a	{
+		font-size: 0.6em;
+	}
+	.menu_nav a	{
+		font-size: 1em;
+		padding: 0 0.7em;
+	}
+	.promo_slogan	{
+		font-size: 1.2em;
+		margin-left: -13em;
+		top: 3em;
+	}
+	.promo_btn	{
+		border: 1px solid #afb1b4;
+		border-radius: 5px;
+		bottom: 40%;
+		left: 50%;
+		margin-left: -110px;
+	}
+	.promo_btn a	{
+		border-radius: 4px;
+		font-size: 1.2em;
+		font-weight: normal;
+		line-height: 1.4em;
+		width: 220px;
+	}
+	.slider	{
+		height: 14em;
+	}
+	.white_blok	{
+		padding: 1em 0.2em;
+	}
+	.white_blok h2	{
+		font-size: 1.6em;
+		margin: 0 auto 1em;
+	}
+	.white_blok p	{
+		font-size: 1.1em;
+		margin: 0 auto 1em;
+		max-width: 640px;
+		text-align: justify;
+	}
+	.additional_nav .nav_padding	{
+		padding-right: 4em;
+	}
+	.additional_nav img	{
+		height: 55px;
+		width: 55px;
+	}
+	.green_blok	{
+		padding: 1em 0.2em;
+	}
+	.green_blok img	{
+		height: 100px;
+		width: 100px;
+	}
+	.green_blok p	{
+		font-size: 1.1em;
+		margin: 1em auto 1em;
+		max-width: 600px;
+	}
+	.map_blok	{
+		height: 20em;
+	}
+	.circle	{
+		height: 17em;
+		left: 50%;
+		margin-left: -8em;
+		top: 10%;
+		width: 17em;
+	}
+	.form	{
+		padding: 4em 2em 1.5em;
+	}
+	.name_email	{
+		border-radius: 0.4em;
+		font-size: 0.9em;
+		height: 1.6em;
+		margin-bottom: 0.4em;
+		padding: 0 0.3em;
+	}
+	.message	{
+		border-radius: 0.4em;
+		font-size: 0.9em;
+		height: 5.2em;
+		margin-bottom: 0.8em;
+		padding: 0 0.3em;
+	}
+	.form_btn	{
+		height: 50px;
+		width: 50px;
+	}
+	.form_btn img	{
+		height: 50px;
+		width: 50px;
+	}
+	.footer	{
+		padding: 0.6em 0;
+	}
+	.footer_Copyright	{
+		font-size: 0.9em;
+	}
+}
+@media screen and (max-width: 540px)	{
+	.header	{
+		line-height: 2em;
+		padding: 0;
+	}
+	.logo	{
+		clear: both;
+		float: none;
+		text-align: center;
+	}
+	.logo a	{
+		font-size: 0.8em;
+		font-weight: normal;
+	}
+	.menu	{
+		border-bottom: 1px solid #fff;
+		border-top: 1px solid #fff;
+		clear: both;
+		float: none;
+		padding: 0;
+		text-align: center;
+	}
+	.menu_nav a	{
+		font-size: 1em;
+		padding: 0 0.5em;
+	}
+	.promo_slogan, .white_blok h2, .white_blok p, .menu	{
+		width: 100%;
+	}
+	.promo_slogan	{
+		font-size: 1em;
+		left: 50%;
+		margin-left: -270px;
+		top: 50px;
+	}
+	.promo_btn	{
+		border: 1px solid #afb1b4;
+		border-radius: 5px;
+		bottom: 50%;
+		left: 50%;
+		margin-left: -75px;
+	}
+	.promo_btn a	{
+		border-radius: 4px;
+		font-size: 1em;
+		font-weight: normal;
+		line-height: 1.2em;
+		width: 180px;
+	}
+	.slider	{
+		height: 12em;
+		width: 100%;
+	}
+	.white_blok	{
+		padding: 1em 0.2em;
+	}
+	.white_blok h2	{
+		font-size: 1em;
+		margin: 0 auto 1em;
+		text-align: center;
+	}
+	.white_blok p	{
+		font-size: 0.9em;
+		margin: 0 auto 1em;
+		max-width: 500px;
+		text-align: justify;
+	}
+	.additional_nav .nav_padding	{
+		padding-right: 3.3em;
+	}
+	.additional_nav img	{
+		height: 40px;
+		width: 40px;
+	}
+	.green_blok	{
+		padding: 1em 0.2em;
+	}
+	.green_blok img	{
+		height: 80px;
+		width: 80px;
+	}
+	.green_blok p	{
+		font-size: 0.9em;
+		margin: 1em auto 1em;
+		max-width: 500px;
+	}
+	.map_blok	{
+		height: 14em;
+	}
+	.circle	{
+		height: 12em;
+		left: 50%;
+		margin-left: -5em;
+		top: 10%;
+		width: 12em;
+	}
+	.form	{
+		padding: 2.5em 1.5em;
+	}
+	.name_email	{
+		border-radius: 0.4em;
+		font-size: 0.7em;
+		height: 1.6em;
+		margin-bottom: 0.4em;
+		padding: 0 0.3em;
+	}
+	.message	{
+		border-radius: 0.4em;
+		font-size: 0.7em;
+		height: 5.2em;
+		margin-bottom: 0.8em;
+		padding: 0 0.3em;
+	}
+	.form_btn	{
+		height: 40px;
+		width: 40px;
+	}
+	.form_btn img	{
+		height: 40px;
+		width: 40px;
+	}
+	.footer	{
+		padding: 0.5em 0;
+	}
+	.footer_Copyright	{
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 400px)	{
+	.header	{
+		line-height: 1.6em;
+	}
+	.logo a	{
+		font-size: 0.5em;
+		font-weight: normal;
+	}
+	.menu_nav a	{
+		font-size: 0.8em;
+		padding: 0 10px;
+	}
+	.promo_slogan	{
+		font-size: 1em;
+		margin-left: -185px;
+	}
+	.promo_btn	{
+		bottom: 40%;
+		left: 50%;
+		margin-left: -75px;
+	}
+	.promo_btn a	{
+		font-size: 0.8em;
+		line-height: 1.2em;
+		width: 150px;
+	}
+	.slider	{
+		height: 11em;
+	}
+	.white_blok h2	{
+		font-size: 0.9em;
+	}
+	.white_blok p	{
+		font-size: 0.6em;
+		max-width: 380px;
+	}
+	.additional_nav .nav_padding	{
+		padding-right: 3em;
+	}
+	.additional_nav img	{
+		height: 30px;
+		width: 30px;
+	}
+	.green_blok img	{
+		height: 70px;
+		width: 70px;
+	}
+	.green_blok p	{
+		font-size: 0.6em;
+		margin: 1.2em auto 0;
+		max-width: 380px;
+	}
+	.map_blok	{
+		height: 13em;
+	}
+	.circle	{
+		height: 10em;
+		left: 50%;
+		margin-left: -5em;
+		top: 10%;
+		width: 10em;
+	}
+	.form	{
+		padding: 2.5em 1.5em;
+	}
+	.name_email	{
+		font-size: 0.5em;
+		height: 1.6em;
+		margin-bottom: 0.4em;
+		padding: 0 0.3em;
+	}
+	.message	{
+		font-size: 0.5em;
+		height: 5em;
+		margin-bottom: 0.8em;
+		padding: 0 0.3em;
+	}
+	.form_btn	{
+		height: 33px;
+		width: 33px;
+	}
+	.form_btn img	{
+		height: 33px;
+		width: 33px;
+	}
+	.footer	{
+		padding: 0.3em 0;
+	}
+	.footer_Copyright	{
+		font-size: 0.6em;
+	}
+}
+@media screen and (max-width: 320px)	{
+	.menu_nav a	{
+		font-size: 0.7em;
+		padding: 0 5px;
+	}
+	.promo_slogan	{
+		font-size: 1em;
+		margin-left: -160px;
+		top: 40px;
+	}
+	.slider	{
+		height: 9em;
+	}
+	.white_blok	{
+		padding: 1em 0.2em;
+	}
+	.green_blok	{
+		padding: 1em 0.2em;
+	}
+	.green_blok img	{
+		height: 60px;
+		width: 60px;
+	}
+	.footer_Copyright	{
+		font-size: 0.5em;
+	}
+}

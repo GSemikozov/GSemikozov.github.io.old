@@ -1,0 +1,77 @@
+.slider__wrapper  {
+  height: 100%;
+  list-style: none;
+  overflow: hidden;
+  webkit-backface-visibility: hidden;
+  webkit-transform-style: preserve-3d;
+  zoom: 1;
+}
+.slider__item {
+  clear: none;
+  float: left;
+  height: 100%;
+}
+.slider__arrows-item  {
+  display: block;
+  margin-bottom: -20px;
+  padding: 20px;
+  position: absolute;
+}
+.slider__arrows-item--right {
+  bottom: 50%;
+  color: #aaa;
+  font-size: 40px;
+  font-weight: bold;
+  right: 0px;
+}
+.slider__arrows-item--left  {
+  bottom: 50%;
+  color: #aaa;
+  font-size: 40px;
+  font-weight: bold;
+  left: 0px;
+}
+.slider__arrows-item--right:hover, .slider__arrows-item--left:hover {
+  color: #adff2f;
+}
+.slider__nav  {
+  bottom: 0;
+  position: absolute;
+}
+.slider__nav-item {
+  background: #000;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 0 2px #fff;
+  box-sizing: border-box;
+  clear: none;
+  display: block;
+  float: left;
+  height: 60px;
+  margin: 10px 9px;
+  width: 90px;
+}
+.slider__nav-item:nth-child(1)  {
+  background: url(../icons/metro_ui__icon.png) no-repeat;
+}
+.slider__nav-item:nth-child(2)  {
+  background: url(../icons/portfolio_project__icon.png) no-repeat;
+}
+.slider__nav-item:nth-child(3)  {
+  background: url(../icons/Solutions__icon.png) no-repeat;
+}
+.slider__nav-item:nth-child(4)  {
+  background: url(../icons/Sign_up__Form__icon.png) no-repeat;
+}
+.slider__nav-item:nth-child(5)  {
+  background: url(../icons/Environmental__icon.png) no-repeat;
+}
+.slider__nav-item:nth-child(6)  {
+  background: url(../icons/Added_names__icon.png) no-repeat;
+}
+.slider__nav-item:hover {
+  border: 2px solid #adff2f;
+}
+.slider__nav-item--current  {
+  border: 2px solid #3da3ef;
+}
