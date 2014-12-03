@@ -16,7 +16,7 @@
   margin-bottom: 10px;
 }
 .fixed-button__back a, .fixed-button__github a  {
-  border: 2px solid #aaa;
+  outline: 2px solid #aaa;
   border-radius: 40px;
   color: #adff2f;
   display: block;
@@ -34,5 +34,5 @@
   color: #3da3ef;
 }
 .fixed-button__back a:active, .fixed-button__github a:active  {
-  border: none;
+  outline: none;
 }
