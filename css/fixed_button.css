@@ -23,11 +23,11 @@
   font-family: 'Ubuntu';
   font-size: 1em;
   font-weight: bold;
-  line-height: 75px;
+  line-height: 80px;
   text-align: center;
   text-transform: uppercase;
   transition: all 0.7s;
-  width: 75px;
+  width: 80px;
 }
 .fixed-button__back a:hover, .fixed-button__github a:hover  {
   background: rgba(127,127,127, 0.8);
@@ -36,4 +36,5 @@
 .fixed-button__back a:active, .fixed-button__github a:active  {
   border-color: #adff2f;
   box-sizing: border-box;
+  text-decoration: none;
 }
