@@ -23,11 +23,11 @@
   font-family: 'Ubuntu';
   font-size: 1em;
   font-weight: bold;
-  line-height: 70px;
+  line-height: 75px;
   text-align: center;
   text-transform: uppercase;
   transition: all 0.7s;
-  width: 70px;
+  width: 75px;
 }
 .fixed-button__back a:hover, .fixed-button__github a:hover  {
   background: rgba(127,127,127, 0.8);
