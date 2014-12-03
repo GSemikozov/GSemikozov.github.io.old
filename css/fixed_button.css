@@ -17,17 +17,17 @@
 }
 .fixed-button__back a, .fixed-button__github a  {
   border: 2px solid #aaa;
-  border-radius: 40px;
+  border-radius: 50%;
   color: #adff2f;
   display: block;
   font-family: 'Ubuntu';
   font-size: 1em;
   font-weight: bold;
-  line-height: 80px;
+  line-height: 70px;
   text-align: center;
   text-transform: uppercase;
   transition: all 0.7s;
-  width: 80px;
+  width: 70px;
 }
 .fixed-button__back a:hover, .fixed-button__github a:hover  {
   background: rgba(127,127,127, 0.8);
