@@ -36,4 +36,5 @@
 .fixed-button__back a:active, .fixed-button__github a:active  {
   border-color: #adff2f;
   box-sizing: border-box;
+  color: #adff2f;
 }
