@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Threezine</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Oswald|Merriweather+Sans:400,700|Roboto+Condensed' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <!-- modal window -->
+    <div class="modal fade" id="photos" role="dialog" aria-hidden="true" aria-labelledby="ModalLabel" tabindex="1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">x</span>
+              <span class="sr-only">Close</span>
+            </button>
+            <h3 class="modal-title" id="ModalLabel">Photos</h3>
+          </div>
+          <div class="modal-body">
+            <div id="slider">
+              <ul class="slider">
+                <li class="active"><img src="images/photo1.jpg" alt="image"></li>
+                <li><img src="images/photo2.jpg" alt="image"></li>
+                <li><img src="images/photo3.jpg" alt="image"></li>
+              </ul>
+              <ul class="pagination">
+                <li class="active"><span class="photo-sm photo-sm-1"></span></li>
+                <li><span class="photo-sm photo-sm-2"></span></li>
+                <li><span class="photo-sm photo-sm-3"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main menu-->
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top navbar-fixed__bg" role="navigation">
+        <div class="container">
+          <ul class="nav nav-pills navbar-left nav-items-bg">
+            <li><a href="#" class="navbar-left__item">Home</a></li>
+            <li><a href="#" class="navbar-left__item">About</a></li>
+            <li><a href="#" class="navbar-left__item">Terms of Use</a></li>
+            <li><a href="#" class="navbar-left__item">Contact</a></li>
+          </ul>
+          <div class="pull-right social-icons">
+            <a href="#" class="social-icon social6"></a>
+            <a href="#" class="social-icon social1"></a>
+            <a href="#" class="social-icon social2"></a>
+            <a href="#" class="social-icon social3"></a>
+            <a href="#" class="social-icon social4"></a>
+            <a href="#" class="social-icon social5"></a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+          <h1 class="heading">THREEZINE</h1>
+      </div>
+    </header>    
+    <div class="container">
+      <nav class="navbar navbar-default main-menu">
+        <ul class="nav nav-pills">
+          <li><a href="#" class="main-menu__item">Home</a></li>
+          <li><a href="#" class="main-menu__item">Graphic Design</a></li>
+          <li><a href="#" class="main-menu__item">Tutorials</a></li>
+          <li><a href="#" class="main-menu__item">Freebies</a></li>
+          <li><a href="#" class="main-menu__item">Psd Templates</a></li>
+          <li><a href="#" class="main-menu__item" data-toggle="modal" data-target="#photos">Photography</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container invisible">
+      <nav class="navbar navbar-default invisible-nav">
+        <div class="navbar-header">
+          <p class="hide-inv-menu">sidebar menu</p>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-nav">
+            <i class="glyphicon glyphicon-ok"></i><span class="sr-only">Open</span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="responsive-nav">
+          <ul class="nav nav-pills nav-justified">
+            <li><a href="#" class="">Recent Posts</a></li>
+            <li><a href="#" class="">Popular Posts</a></li>
+            <li><a href="#" class="">Recent Comments</a></li>
+            <li><a href="#" class="">Flickr</a></li>
+            <li><a href="#" class="">Twitter</a></li>
+            <li><a href="#" class="">Search</a></li>
+            <li><a href="#" class="">Featured Posts</a></li>
+            <li><a href="#" class="">Tags</a></li>
+            <li><a href="#" class="">Archives</a></li>
+            <li><a href="#" class="">Advertisement</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>     
+    <!-- Slider-->
+    <div class="container">
+      <div id="carousel" class="carousel row">
+        <!-- Slides-->
+        <div class="col-md-8 col-sm-10 col-xs-10">
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="images/slide1.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>Curabitur bibendum tortor in diam viverra</h4>
+                <p>Curabitur adipiscing lacus quis diam tincidunt accumsan. Suspendisse in est orci. Nulla facilisi. Morbi lacus urna..(<a href="">Read More</a>)</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/slide2.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>Curabitur bibendum tortor in diam viverra</h4>
+                <p>Curabitur adipiscing lacus quis diam tincidunt accumsan. Suspendisse in est orci. Nulla facilisi. Morbi lacus urna..(<a href="">Read More</a>)</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/slide3.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>Curabitur bibendum tortor in diam viverra</h4>
+                <p>Curabitur adipiscing lacus quis diam tincidunt accumsan. Suspendisse in est orci. Nulla facilisi. Morbi lacus urna..(<a href="">Read More</a>)</p>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/slide4.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>Curabitur bibendum tortor in diam viverra</h4>
+                <p>Curabitur adipiscing lacus quis diam tincidunt accumsan. Suspendisse in est orci. Nulla facilisi. Morbi lacus urna..(<a href="">Read More</a>)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Indicators-->
+        <ul class="col-md-4 col-sm-2 col-xs-2 carousel-indicators">
+          <li class="active" data-target="#carousel" data-slide-to="0"><a href=""><span class="indicator-img indicator-img-1"></span><span class="carousel-indicators__text">Curabitur bibendum tortor in diam viverra</span></a></li>
+          <li data-target="#carousel" data-slide-to="1"><a href=""><span class="indicator-img indicator-img-2"></span><span class="carousel-indicators__text">Pellentesque phare tramy mollis tortor volutpat</span></a></li>
+          <li data-target="#carousel" data-slide-to="2"><a href=""><span class="indicator-img indicator-img-3"></span><span class="carousel-indicators__text">Cras ac felis eget quampos consectetur sagittis</span></a></li>
+          <li data-target="#carousel" data-slide-to="3"><a href=""><span class="indicator-img indicator-img-4"></span><span class="carousel-indicators__text">Sed imperdiet lorem in ipsum ultrices</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Content -->
+    <article class="container">
+      <div class="row">
+        <aside class="col-md-3 col-sm-3 col-xs-3">
+          <div id="recent-posts" class="aside-block posts hidden-xs">
+            <h4>Recent Posts</h4>
+            <ul class="nav nav-pills sidebar-nav">
+              <li><a href=""><span class="sidebar-img sidebar-img-5"></span>Curabitur bibendum tortor in diam viverra<br><span class="posts__comments">9 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-3"></span>Pellentesque phare tramy mollis tortor volutpat<br><span class="posts__comments">13 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-6"></span>Cras ac felis eget quampos consectetur sagittis<br><span class="posts__comments">21 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-4"></span>Sed imperdiet lorem in ipsum ultrices<br><span class="posts__comments">15 comments</span></a></li>
+            </ul>
+          </div>
+          <div id="popular-posts" class="aside-block posts hidden-xs">
+            <h4>Popular Posts</h4>
+            <ul class="nav nav-pills sidebar-nav">
+              <li><a href=""><span class="sidebar-img sidebar-img-7"></span>Curabitur bibendum tortor in diam viverra<br><span class="posts__comments">9 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-8"></span>Pellentesque phare tramy mollis tortor volutpat<br><span class="posts__comments">13 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-2"></span>Cras ac felis eget quampos consectetur sagittis<br><span class="posts__comments">21 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-3"></span>Sed imperdiet lorem in ipsum ultrices<br><span class="posts__comments">15 comments</span></a></li>
+            </ul>
+          </div>
+          <div id="recent-comments" class="aside-block recents hidden-xs">
+            <h4>Recent Comments</h4>
+            <ul class="nav nav-default">
+              <li><span><b>Violet:</b> Duis turpis risus, blanditut rhoncus iaculis, vulputate<a href="">...»</a></span></li>
+              <li><span><b>Aaron:</b> Vestibulum ante ipsumor primis in faucibus orci luctus<a href="">...»</a></span></li>
+              <li><span><b>Eric:</b> Cras lorem arcu, euismod in pulvinar nec, luctus in purus<a href="">...»</a></span></li>
+              <li><span><b>Julia:</b> Nunc vel nunc lectus, vitae dui odio cursus mauris<a href="">...»</a></span></li>
+            </ul>
+          </div>
+          <div id="flickr" class="aside-block hidden-xs">
+            <h4>Flickr</h4>
+            <a href="" class="thumbnail flickr-thumbnail"><img src=""></a>
+            <a href="" class="thumbnail flickr-thumbnail"><img src=""></a>
+            <a href="" class="thumbnail flickr-thumbnail"><img src=""></a>
+            <a href="" class="thumbnail flickr-thumbnail"><img src=""></a>
+            <a href="" class="thumbnail flickr-thumbnail"><img src=""></a>
+            <a href="" class="thumbnail flickr-thumbnail"><img src=""></a>
+          </div>
+          <div id="twitter" class="aside-block hidden-xs">
+            <h4>Twitter</h4>
+            <p class="italic-dark">
+              <a href="">#psd</a> <a href="">#newsletter</a>
+              <span>| Download "Locus Newsletter" layout 1 PSD here: </span>
+              <a href="">http://is.gd/gcrc2 </a><a href="">about 3 hours ago</a>
+            </p>
+            <p class="italic-dark">
+              <a href="">#psd</a> <a href="">#newsletter</a>
+              <span>| Download 9 notepad patterns here: </span>
+              <a href="">http://is.gd/gcrc2 </a><a href="">about 3 hours ago</a>
+            </p>
+            <p class="italic-dark"><a href="">@ elemisdesign</a></p>
+          </div>
+        </aside>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <section class="content-block">
+            <h3>Class aptent tacitı sociosu ad litora </h3>
+            <p class="base">
+              <a href=""><i class="fa fa-calendar"></i>25 aug 2014</a>
+              <a href=""><i class="glyphicon glyphicon-user"></i>by admin</a>
+              <a href=""><i class="fa fa-comment"></i>12 comments</a>
+              <a href=""><i class="fa fa-rotate-270 fa-link"></i>Permalink</a>
+            </p>
+            <p class="content-photo"><img src="images/content-photo.jpg" alt="content-photo"></p>
+            <p class="content-block__text content-block__text-xs">Nulla nec ante sit amet felis gravida tincidunt et non mi. Ut accumsan hep sollicitudin neque sit amet ullamcorper. Quisque viverra sem id quamir imperdiet et dictum metus scelerisque. Fusce pellentesque vulputate nisi semper accumsan. Proin leo nibh, scelerisque quis vehicula intep kemry, pellentesque et nunc. Phasellus non eros sit amet nunc vulputate pulvinar. Ut id enim mi, eu semper purus. Ut tristique eros consectetur antemor vulputate ac cursus eros condimentum. Morbi sed neque nisl. Duis venena libero ac velit sagittis tristique. Sed euismod consectetur tincidunt. Vivamus malesuada sem id nulla condimentum pretium. Aenean hendrerit bibendum mi nec tristique. Nulla vehicula bibendum quam, ac accumsan leo consectetur ac. Aliquam viverra quam eu erat rhoncus adipiscing. </p>
+          </section>
+          <section class="content-block">
+            <h3>Class aptent tacitı sociosu ad litora </h3>
+            <p class="base">
+              <a href=""><i class="fa fa-calendar"></i>25 aug 2014</a>
+              <a href=""><i class="glyphicon glyphicon-user"></i>by admin</a>
+              <a href=""><i class="fa fa-comment"></i>12 comments</a>
+              <a href=""><i class="fa fa-rotate-270 fa-link"></i>Permalink</a>
+            </p>
+            <p class="content-photo"><img src="images/content-photo.jpg"></p>
+            <p class="content-block__text content-block__text-xs">Nulla nec ante sit amet felis gravida tincidunt et non mi. Ut accumsan hep sollicitudin neque sit amet ullamcorper. Quisque viverra sem id quamir imperdiet et dictum metus scelerisque. Fusce pellentesque vulputate nisi semper accumsan. Proin leo nibh, scelerisque quis vehicula intep kemry, pellentesque et nunc. Phasellus non eros sit amet nunc vulputate pulvinar. Ut id enim mi, eu semper purus. Ut tristique eros consectetur antemor vulputate ac cursus eros condimentum. Morbi sed neque nisl. Duis venena libero ac velit sagittis tristique. Sed euismod consectetur tincidunt. Vivamus malesuada sem id nulla condimentum pretium. Aenean hendrerit bibendum mi nec tristique. Nulla vehicula bibendum quam, ac accumsan leo consectetur ac. Aliquam viverra quam eu erat rhoncus adipiscing. </p>
+          </section>
+        </div>
+        <aside class="col-md-3 col-sm-3 col-xs-3">
+          <div id="search" class="aside-block hidden-xs">
+            <h4>Search</h4>
+            <form action=""><input class="search" type="search" placeholder=""></form>
+          </div>
+          <div id="featured-posts" class="aside-block posts hidden-xs">
+            <h4>Featured Posts</h4>
+            <ul class="nav nav-pills sidebar-nav">
+              <li><a href=""><span class="sidebar-img sidebar-img-1"></span>Curabitur bibendum tortor in diam viverra<br><span class="posts__comments">9 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-7"></span>Pellentesque phare tramy mollis tortor volutpat<br><span class="posts__comments">13 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-9"></span>Cras ac felis eget quampos consectetur sagittis<br><span class="posts__comments">21 comments</span></a></li>
+              <li><a href=""><span class="sidebar-img sidebar-img-10"></span>Sed imperdiet lorem in ipsum ultrices<br><span class="posts__comments">15 comments</span></a></li>
+            </ul>
+          </div>
+          <div id="tags" class="aside-block tags hidden-xs">
+            <h4>Tags</h4>
+            <a href="" class="tag">Photography</a>
+            <a href="" class="tag">Web Design</a>
+            <a href="" class="tag">Drawings</a>
+            <a href="" class="tag">Coding</a>
+            <a href="" class="tag">Vector</a>
+            <a href="" class="tag">Manipulation</a>
+            <a href="" class="tag">Textures</a>
+            <a href="" class="tag">Print</a>
+            <a href="" class="tag">Animation</a>
+            <a href="" class="tag">Black &amp; White</a>
+            <a href="" class="tag">Digital Art</a>
+            <a href="" class="tag">Graphic Design</a>
+          </div>
+          <div id="archives" class="aside-block hidden-xs">
+            <h4>Archives</h4>
+            <ul class="nav nav-default sidebar-nav archives">
+              <li><a href="">October 2010</a></li>
+              <li><a href="">September 2010</a></li>
+              <li><a href="">August 2010</a></li>
+              <li><a href="">July 2010</a></li>
+              <li><a href="">June 2010</a></li>
+              <li><a href="">May 2010</a></li>
+              <li><a href="">April 2010</a></li>
+              <li><a href="">March 2010</a></li>
+            </ul>
+          </div>
+          <div id="advertisment" class="aside-block advertisment hidden-xs">
+            <h4>Advertisement</h4>
+            <a href="" class="thumbnail thumbnail-advertisment"></a>
+            <a href="" class="thumbnail thumbnail-advertisment"></a>
+          </div>
+        </aside>
+      </div>
+    </article>
+    <div style="height: 130px;" class="hidden-xs"></div>
+    <nav id="footer" class="navbar navbar-fixed-bottom navbar__bg footer">
+      <div class="container">
+       © Copyright Threezine WordPress Theme - Designed by elemis
+      </div>
+    </nav>
+    <script>
+      $(document).ready(function(){
+        $(".pagination li").click(function(){
+          $(".pagination li").removeClass("active");
+          $(".slider li").removeClass("active");
+          $(this).addClass("active");
+          var i = $(this).index();
+          $(".slider li").eq(i).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>

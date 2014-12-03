@@ -52,23 +52,24 @@
   width: 90px;
 }
 .slider__nav-item:nth-child(1)  {
-  background: url(../icons/metro_ui__icon.png) no-repeat;
+  background: url(../icons/Threezine__icon.png) no-repeat;
 }
 .slider__nav-item:nth-child(2)  {
-  background: url(../icons/portfolio_project__icon.png) no-repeat;
+  background: url(../icons/metro_ui__icon.png) no-repeat;
 }
 .slider__nav-item:nth-child(3)  {
-  background: url(../icons/Solutions__icon.png) no-repeat;
+  background: url(../icons/portfolio_project__icon.png) no-repeat;
 }
 .slider__nav-item:nth-child(4)  {
-  background: url(../icons/Sign_up__Form__icon.png) no-repeat;
+  background: url(../icons/Solutions__icon.png) no-repeat;
 }
 .slider__nav-item:nth-child(5)  {
-  background: url(../icons/Environmental__icon.png) no-repeat;
+  background: url(../icons/Sign_up__Form__icon.png) no-repeat;
 }
 .slider__nav-item:nth-child(6)  {
-  background: url(../icons/Added_names__icon.png) no-repeat;
+  background: url(../icons/Environmental__icon.png) no-repeat;
 }
+
 .slider__nav-item:hover {
   border: 2px solid #adff2f;
 }
